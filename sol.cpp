@@ -5,13 +5,13 @@ using namespace std;
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
-	int tt;
-	cin >> tt;
+	int tt;// 
+	cin >> tt;//
 	while (tt--) {
 		string s;
 		cin >> s;
-		string tmp = "";
-		for (int i = 0; i < (int) s.size(); i++) {
+		string tmp = "";//temporary string 
+		for (int i = 0; i < (int) s.size(); i++) {//typecasting of a string to int is used here to get the size of the string 
 			// check if a substring of 's' is equal to "party"
 			if (s.substr(i, 5) == "party") {
 				// if it's true, concatenate the word "parwi" to 'tmp'
